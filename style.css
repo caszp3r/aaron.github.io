@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: grey;
+  font-family: lato, serif;
+  font-size: 20px;
+  text-rendering: optimizedLegibility;
+  scroll-behavior: smooth;
+}
+
+header {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.7),
+      rgba(20, 20, 20, 0.7)
+    ),
+    url(./images/computer.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar-brand:hover {
+  color: blue;
+}
+
+.navbar-nav li.nav-item a:hover {
+  color: blue;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.pldt-logo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.spi-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.spi-logo-2 {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.workspace-logo {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.award-logo {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.arasystems-img {
+  height: 250px;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.tindog-img {
+  height: 250px;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.projects {
+  padding-left: 0;
+}
+
+.about-me-text {
+  padding-left: 0;
+}
